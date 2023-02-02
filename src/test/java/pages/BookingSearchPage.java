@@ -7,7 +7,6 @@ public class BookingSearchPage extends BasePage{
     public BookingSearchPage(WebDriver driver) {
         super(driver);
     }
-
     private final static By SEARCH_INPUT = By.id("b2indexPage");
     private final static By SEARCH_BUTTON = By.cssSelector(".js-sb-submit-text");
 

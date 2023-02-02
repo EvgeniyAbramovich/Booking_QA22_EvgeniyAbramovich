@@ -13,5 +13,4 @@ import io.cucumber.testng.CucumberOptions;
 
 public class BookingSearchTest extends AbstractTestNGCucumberTests {
 
-
 }
