@@ -53,7 +53,7 @@ public class BookingSearchSteps {
 
     @Then("{string} should be present in first search result title")
     public void hiltonShouldBePresentInFirstSearchResultTitle(String value) {
-       String ResultText =  bookingResultsPage.getSearchResultTextByIndex(1);
-        Assert.assertTrue(ResultText.contains(value));
+       String resultText =  bookingResultsPage.getSearchResultTextByIndex(1);
+        Assert.assertTrue(resultText.contains(value));
     }
 }
